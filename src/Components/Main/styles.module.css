@@ -1,0 +1,74 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.Text h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.Text h6 {
+    color: white;
+    font-weight: bold;
+}
+
+.Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button button {
+    width: 15%;
+    height: 60px;
+    margin-top: 5%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Cookie {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 2rem;
+    height: 90px;
+    margin-top: 5.3rem;
+}
+
+.Cookie p {
+    text-align: center;
+    color: white;
+    background: none;
+}
+
+.Cookie svg {
+    background: none;
+}
+
+.Cookie svg:hover {
+    cursor: pointer;
+}
+
+.visible {
+    display: block;
+}
+
+.unvisible {
+    display: none;
+}
